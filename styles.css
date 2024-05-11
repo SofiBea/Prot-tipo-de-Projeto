@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: pink;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.primeiro {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: white;
+}
+
+.textos {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.textos {
+    padding: 40px 0;
+    background-color: antiquewhite;
+}
+
+section.module.araras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.araras1 {
+    background-image: url(bird-1834401_1280.jpg);
+}
+
+section.module.araras2 {
+    background-image: url(macaw-943177_1280.jpg);
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p, li, ol, ul {
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.nome {
+    font-size: 4rem;
+    font-weight: 700;
+    color: pink;
+}
+
+.titulo1 {
+    width: 6rem;
+    color: pink;
+}
+
+.titulo2 {
+    width: 7rem;
+    color: pink;
+}
+
+.titulo3 {
+    width: 8rem;
+    color: pink;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    gap: 5rem;
+    color: pink;
+    opacity: 60%;
+}
